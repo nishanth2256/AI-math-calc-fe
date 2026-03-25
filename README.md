@@ -8,46 +8,46 @@ An interactive web application that allows users to draw mathematical expression
 Core Features
 
 
-Draw mathematical expressions on a canvas
-Erase and color drawing tools
-Send canvas image to backend for expression recognition
-Render results using LaTeX
-Draggable result cards
-Variable assignment support (e.g., x = 5, y = x + 2)
-Automatic equation positioning based on drawing location
-Multiple results rendered sequentially
-Reset canvas and variables
-Dark UI for better writing experience
+-Draw mathematical expressions on a canvas
+-Erase and color drawing tools
+-Send canvas image to backend for expression recognition
+-Render results using LaTeX
+-Draggable result cards
+-Variable assignment support (e.g., x = 5, y = x + 2)
+-Automatic equation positioning based on drawing location
+-Multiple results rendered sequentially
+-Reset canvas and variables
+-Dark UI for better writing experience
 
 Math Rendering Features
 
 
-Integrals
-Derivatives
-Fractions
-Powers (x², x³)
-Square roots
-Pi and mathematical symbols
-Multiplication dot formatting
-LaTeX formatted output
+-Integrals
+-Derivatives
+-Fractions
+-Powers (x², x³)
+-Square roots
+-Pi and mathematical symbols
+-Multiplication dot formatting
+-LaTeX formatted output
 
 #  🏗️ Project Architecture
 
-User Draws Equation
-        ↓
-Canvas Image Captured
-        ↓
-Image Sent to Backend API
-        ↓
-Backend Processes Image / Expression
-        ↓
-Backend Returns Expression + Result
-        ↓
-Frontend Converts to LaTeX
-        ↓
-MathJax Renders Equation
-        ↓
-Draggable Result Displayed
+-User Draws Equation
+-        ↓
+-Canvas Image Captured
+-        ↓
+-Image Sent to Backend API
+-        ↓
+-Backend Processes Image / Expression
+-        ↓
+-Backend Returns Expression + Result
+-        ↓
+-Frontend Converts to LaTeX
+-        ↓
+-MathJax Renders Equation
+-        ↓
+-Draggable Result Displayed
 
 
 
