@@ -88,4 +88,4 @@ Draggable Result Displayed
 
 ![App Screenshot](../screenshots/latest.png)
 ![App Screenshot](../screenshots/latest2.png)
-![App Screenshot](<img width="1918" height="903" alt="Screenshot 2026-03-25 114943" src="https://github.com/user-attachments/assets/48232632-5af2-4513-8ed1-48e1ea94ba3d" />)
+![App Screenshot](https://github.com/nishanth2256/AI-math-calc-fe/blob/main/Screenshot%202026-03-25%20115126.png?raw=true)
