@@ -6,6 +6,8 @@ An interactive web application that allows users to draw mathematical expression
 
 #  🚀 Features
 Core Features
+
+
 Draw mathematical expressions on a canvas
 Erase and color drawing tools
 Send canvas image to backend for expression recognition
@@ -17,7 +19,9 @@ Multiple results rendered sequentially
 Reset canvas and variables
 Dark UI for better writing experience
 
-#  Math Rendering Features
+Math Rendering Features
+
+
 Integrals
 Derivatives
 Fractions
@@ -27,7 +31,7 @@ Pi and mathematical symbols
 Multiplication dot formatting
 LaTeX formatted output
 
-#  Project Architecture
+#  🏗️ Project Architecture
 
 User Draws Equation
         ↓
