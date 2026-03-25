@@ -84,7 +84,7 @@ Draggable Result Displayed
 ```
 
 
-## Screenshots
+# Screenshots
 
 ![App Screenshot](https://github.com/nishanth2256/AI-math-calc-fe/blob/main/Screenshot%202026-03-25%20114943.png?raw=true)
 
