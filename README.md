@@ -1,51 +1,89 @@
-# React + TypeScript + Vite
+# 🧠 AI Handwritten Math Solver with Canvas Rendering and Variable Memory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive web application that allows users to draw mathematical expressions on a canvas, send the drawing to a backend for processing, and render the result as properly formatted LaTeX equations. The system also supports variable assignments, draggable result cards, and dynamic equation rendering.
 
-Currently, two official plugins are available:
+# 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Core Features
+- Draw mathematical expressions on a canvas
+- Erase and color drawing tools
+- Send canvas image to backend for expression recognition
+- Render results using LaTeX
+- Draggable result cards
+- Variable memory system
+- Variable assignment support (e.g., x = 5, y = x + 2)
+- Automatic equation positioning based on drawing location
+- Multiple results rendered sequentially
+- Reset canvas and variables
+- Dark UI for better writing experience
 
-## Expanding the ESLint configuration
+## Math Rendering Features
+- Integrals
+- Derivatives
+- Fractions
+- Powers (x², x³)
+- Square roots
+- Pi and mathematical symbols
+- Multiplication dot formatting
+- LaTeX formatted output
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# 🏗️ Project Architecture
 
-- Configure the top-level `parserOptions` property like this:
+## Workflow
+User Draws Equation  
+↓  
+Canvas Image Captured  
+↓  
+Image Sent to Backend API  
+↓  
+Backend Processes Image / Expression  
+↓  
+Backend Returns Expression + Result  
+↓  
+Frontend Converts to LaTeX  
+↓  
+MathJax Renders Equation  
+↓  
+Draggable Result Displayed  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+
+# 🖥️ Tech Stack
+
+## Frontend
+- React
+- TypeScript
+- Tailwind CSS
+- Canvas API
+- MathJax (LaTeX rendering)
+- Axios
+- React Draggable
+- Mantine UI Components
+
+
+
+
+# ⚙️ Installation & Setup
+
+## 1. Clone Repository
+
+```bash
+  git clone https://github.com/yourusername/AI-math-calc-fe.git  
+  cd ai-math-canvas 
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 2. Install Frontend Dependencies
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+  npm install 
 ```
-# calc-fe
+
+## 3. Run Frontend
+
+```bash
+  npm run dev
+```
+
+
+## Screenshots
+
+![App Screenshot](/screenshots/latest.png)
