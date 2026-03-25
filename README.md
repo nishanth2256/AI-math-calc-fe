@@ -34,28 +34,28 @@ Math Rendering Features
 #  🏗️ Project Architecture
 
 -User Draws Equation
--        ↓
+        ↓
 -Canvas Image Captured
--        ↓
+        ↓
 -Image Sent to Backend API
--        ↓
+        ↓
 -Backend Processes Image / Expression
--        ↓
+        ↓
 -Backend Returns Expression + Result
--        ↓
+        ↓
 -Frontend Converts to LaTeX
--        ↓
+        ↓
 -MathJax Renders Equation
--        ↓
+        ↓
 -Draggable Result Displayed
 
 
 
 # ⚙️ Installation & Setup
 1. Clone Repository
-git clone https://github.com/yourusername/ai-math-canvas.git
-cd ai-math-canvas
+-git clone https://github.com/yourusername/AI-math-calc-fe.git
+-cd AI-math-calc-fe
 2. Install Frontend Dependencies
-npm install
+-npm install
 3. Run Frontend
-npm run dev
+-npm run dev
