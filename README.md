@@ -86,6 +86,7 @@ Draggable Result Displayed
 
 ## Screenshots
 
-![App Screenshot](../screenshots/latest.png)
-![App Screenshot](../screenshots/latest2.png)
+![App Screenshot](https://github.com/nishanth2256/AI-math-calc-fe/blob/main/Screenshot%202026-03-25%20114943.png?raw=true)
+
+
 ![App Screenshot](https://github.com/nishanth2256/AI-math-calc-fe/blob/main/Screenshot%202026-03-25%20115126.png?raw=true)
