@@ -4,7 +4,7 @@ AI Handwritten Math Solver
 
 An interactive web application that allows users to draw mathematical expressions on a canvas, sends the drawing to a backend for processing, and renders the result as properly formatted LaTeX equations. The system also supports variable assignments, draggable result cards, and dynamic equation rendering.
 
-🚀 Features
+#  🚀 Features
 Core Features
 Draw mathematical expressions on a canvas
 Erase and color drawing tools
@@ -16,7 +16,8 @@ Automatic equation positioning based on drawing location
 Multiple results rendered sequentially
 Reset canvas and variables
 Dark UI for better writing experience
-Math Rendering Features
+
+#  Math Rendering Features
 Integrals
 Derivatives
 Fractions
